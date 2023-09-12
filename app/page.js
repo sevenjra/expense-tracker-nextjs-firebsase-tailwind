@@ -99,7 +99,7 @@ export default function Home() {
                 key={id}
                 className='my-4 w-full flex justify-between bg-slate-950'
               >
-                <div className='p-4 w-full flex justify-between'>
+                <div className='p-4 w-full flex justify-between  text-white'>
                   <span className='capitalize'>{item.name}</span>
                   <span>${item.price}</span>
                 </div>
@@ -115,7 +115,7 @@ export default function Home() {
           {items.length < 1 ? (
             ''
           ) : (
-            <div className='flex justify-between p-3'>
+            <div className='flex justify-between p-3  text-red-600'>
               <span>Total</span>
               <span>${total}</span>
             </div>
